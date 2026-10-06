@@ -85,7 +85,7 @@ export const experiences = [
     place: 'Student Representative Council (Majelis Permusyawaratan Mahasiswa), Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
     detail: 'Reported to the Secretary General and the Chairperson. Coordinated with divisions to carry out work programs and served as a liaison to ensure information flowed between the Secretary-General and each commission.',
-    images: ['/images/sekre/1.jpg',
+    images: ['/images/sekre/1.JPG',
       '/images/sekre/2.JPG',
       '/images/sekre/3.JPG',
       '/images/sekre/4.JPG',
