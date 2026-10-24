@@ -100,7 +100,14 @@ export const experiences = [
     place: 'Student Representative Council (Majelis Permusyawaratan Mahasiswa), Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
     detail: 'Reported to the Secretary General and the Chairperson. Coordinated with divisions to carry out work programs and served as a liaison to ensure information flowed between the Secretary-General and each commission.',
-    images: ['/images/sekre/1.jpg', '/images/sekre/2.JPG', '/images/sekre/3.JPG', '/images/sekre/4.JPG', '/images/sekre/5.JPG', '/images/sekre/6.jpg'],
+    images: [
+      '/images/sekre/1.jpg',
+      '/images/sekre/2.JPG',
+      '/images/sekre/3.JPG',
+      '/images/sekre/4.JPG',
+      '/images/sekre/5.JPG',
+      '/images/sekre/6.jpg',
+    ],
   },
 ];
 
@@ -118,9 +125,7 @@ export const certifications = [
     title: 'Microsoft Certified: Azure AI Fundamentals',
     issuer: 'Microsoft',
     issued: 'September 19, 2026',
-    images: ['/images/microsoft/1.jpg',
-      '/images/microsoft/2.jpg',
-    ],
+    images: ['/images/microsoft/1.jpg', '/images/microsoft/2.jpg'],
   },
   {
     title: 'Learning Path: Front-End & Back-End Developer',
@@ -129,6 +134,7 @@ export const certifications = [
     images: ['/images/codingcamp/1.jpg', '/images/codingcamp/2.jpg'],
   },
 ];
+
 export const achievements = [
   {
     title: '1st Place Faculty-Level Programming Competition',
@@ -143,7 +149,6 @@ export const achievements = [
       '/images/lomba/4.webp',
     ],
   },
-
 ];
 
 export const skills = [
@@ -163,7 +168,6 @@ export const skills = [
     name: 'React.js',
     icon: '/images/skills/react.svg',
   },
-
   {
     name: 'JavaScript',
     icon: '/images/skills/javascript.svg',
@@ -208,7 +212,6 @@ export const contact = {
   phoneHref: 'https://wa.me/6282138909595',
   location: 'Condongcatur, Sleman, DIY',
 };
-
 
 export const socials = [
   { label: 'LinkedIn', href: 'www.linkedin.com/in/priscilialeza' },
