@@ -26,7 +26,7 @@ export const navLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];
-// TODO: ganti dengan project asli. Taruh gambar di public/images/projects/
+
 export const projects = [
   {
     name: 'NaraStock - Weekly Stock Market Analysis for Beginners',
@@ -73,6 +73,21 @@ export const educations = [
 
 export const experiences = [
   {
+    title: 'Website Development Team Member',
+    place: 'Kelas Naskah',
+    period: 'June 2025 – Present',
+    detail:
+      'Contributed to the development of Kelas Naskah’s website, focusing on front-end functionality, responsive user interfaces, UI/UX implementation, and full-stack development to support the organization’s educational initiatives.',
+    images: [
+      '/images/kelasnaskah/kelas-naskah1.webp',
+      '/images/kelasnaskah/kelas-naskah2.webp',
+      '/images/kelasnaskah/kelas-naskah3.webp',
+      '/images/kelasnaskah/kelas-naskah4.webp',
+      '/images/kelasnaskah/kelas-naskah5.webp',
+      '/images/kelasnaskah/kelas-naskah6.webp',
+    ],
+  },
+  {
     title: 'Web Development Teaching Assistant (Asisten Praktikum)',
     place: 'Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
@@ -85,13 +100,7 @@ export const experiences = [
     place: 'Student Representative Council (Majelis Permusyawaratan Mahasiswa), Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
     detail: 'Reported to the Secretary General and the Chairperson. Coordinated with divisions to carry out work programs and served as a liaison to ensure information flowed between the Secretary-General and each commission.',
-    images: ['/images/sekre/1.jpg',
-      '/images/sekre/2.jpg',
-      '/images/sekre/3.jpg',
-      '/images/sekre/4.jpg',
-      '/images/sekre/5.jpg',
-      '/images/sekre/6.jpg'
-    ],
+    images: ['/images/sekre/1.jpg', '/images/sekre/2.JPG', '/images/sekre/3.JPG', '/images/sekre/4.JPG', '/images/sekre/5.JPG', '/images/sekre/6.jpg'],
   },
 ];
 
