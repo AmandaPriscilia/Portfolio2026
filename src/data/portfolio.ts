@@ -26,7 +26,7 @@ export const navLinks = [
   { label: 'Skills', href: '#skills' },
   { label: 'Contact', href: '#contact' },
 ];
-// TODO: ganti dengan project asli. Taruh gambar di public/images/projects/
+
 export const projects = [
   {
     name: 'NaraStock - Weekly Stock Market Analysis for Beginners',
@@ -73,6 +73,21 @@ export const educations = [
 
 export const experiences = [
   {
+    title: 'Website Development Team Member',
+    place: 'Kelas Naskah',
+    period: 'June 2025 – Present',
+    detail:
+      'Contributed to the development of Kelas Naskah’s website, focusing on front-end functionality, responsive user interfaces, UI/UX implementation, and full-stack development to support the organization’s educational initiatives.',
+    images: [
+      '/images/kelasnaskah/kelas-naskah1.webp',
+      '/images/kelasnaskah/kelas-naskah2.webp',
+      '/images/kelasnaskah/kelas-naskah3.webp',
+      '/images/kelasnaskah/kelas-naskah4.webp',
+      '/images/kelasnaskah/kelas-naskah5.webp',
+      '/images/kelasnaskah/kelas-naskah6.webp',
+    ],
+  },
+  {
     title: 'Web Development Teaching Assistant (Asisten Praktikum)',
     place: 'Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
@@ -85,12 +100,13 @@ export const experiences = [
     place: 'Student Representative Council (Majelis Permusyawaratan Mahasiswa), Universitas Mercu Buana Yogyakarta',
     period: '2025 – 2026',
     detail: 'Reported to the Secretary General and the Chairperson. Coordinated with divisions to carry out work programs and served as a liaison to ensure information flowed between the Secretary-General and each commission.',
-    images: ['/images/sekre/1.JPG',
+    images: [
+      '/images/sekre/1.jpg',
       '/images/sekre/2.JPG',
       '/images/sekre/3.JPG',
       '/images/sekre/4.JPG',
       '/images/sekre/5.JPG',
-      '/images/sekre/6.jpg'
+      '/images/sekre/6.jpg',
     ],
   },
 ];
@@ -109,9 +125,7 @@ export const certifications = [
     title: 'Microsoft Certified: Azure AI Fundamentals',
     issuer: 'Microsoft',
     issued: 'September 19, 2026',
-    images: ['/images/microsoft/1.jpg',
-      '/images/microsoft/2.jpg',
-    ],
+    images: ['/images/microsoft/1.jpg', '/images/microsoft/2.jpg'],
   },
   {
     title: 'Learning Path: Front-End & Back-End Developer',
@@ -120,6 +134,7 @@ export const certifications = [
     images: ['/images/codingcamp/1.jpg', '/images/codingcamp/2.jpg'],
   },
 ];
+
 export const achievements = [
   {
     title: '1st Place Faculty-Level Programming Competition',
@@ -134,7 +149,6 @@ export const achievements = [
       '/images/lomba/4.webp',
     ],
   },
-
 ];
 
 export const skills = [
@@ -154,7 +168,6 @@ export const skills = [
     name: 'React.js',
     icon: '/images/skills/react.svg',
   },
-
   {
     name: 'JavaScript',
     icon: '/images/skills/javascript.svg',
@@ -199,7 +212,6 @@ export const contact = {
   phoneHref: 'https://wa.me/6282138909595',
   location: 'Condongcatur, Sleman, DIY',
 };
-
 
 export const socials = [
   { label: 'LinkedIn', href: 'www.linkedin.com/in/priscilialeza' },
