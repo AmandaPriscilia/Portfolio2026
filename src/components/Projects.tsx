@@ -82,11 +82,11 @@ export default function Projects() {
                         >
                           <ButtonLink href="#">View project</ButtonLink>
                         </div>
-                      ) : project.link ? (
+                      ) : (
                         <ButtonLink href={project.link} external>
                           View project
                         </ButtonLink>
-                      ) : null}
+                      )}
                     </div>
                   </div>
                 </article>
