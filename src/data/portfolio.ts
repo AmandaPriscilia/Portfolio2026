@@ -30,34 +30,63 @@ export const navLinks = [
 export const projects = [
   {
     name: 'NaraStock - Weekly Stock Market Analysis for Beginners',
+    category: 'Web Development',
     description:
       'A Capstone Project from Coding Camp by DBS Foundation in collaboration with Dicoding, developed as a team project. Contributed as a Full-Stack Developer, focusing on website development, back-end development, API integration, and application testing.',
     image: '/images/proj2.webp',
     link: 'https://amandapriscilia.github.io/NaraStocksm/',
   },
   {
+    name: 'PANCE (Pangan Ceria) - Food Safety Platform',
+    category: 'Web Development',
+    description: 'A static web platform supporting the MBG program through educational content, ingredient audits, data dashboards, and incident reporting. Won 1st Place in the 2025 Faculty-Level Programming Competition.',
+    image: '/images/mbg.png',
+    link: 'https://amandapriscilia.github.io/Competition/',
+  },
+  {
+    name: 'Client Project: Solo Japanese Festival #2',
+    category: 'Web Development',
+    description:
+      'A responsive event website featuring event information, competition listings, sponsors, community partners, venue details, an interactive countdown, and calendar integration. Screenshots are showcased for portfolio purposes to respect client confidentiality.',
+    image: '/images/solo/solo-1.webp',
+    type: 'screenshots',
+    screenshots: ['/images/solo/solo-1.webp', '/images/solo/solo-2.webp', '/images/solo/solo-3.webp', '/images/solo/solo-4.webp', '/images/solo/solo-5.webp'],
+  },
+  {
     name: 'Client Project: Personal Portfolio Website',
+    category: 'Web Development',
     description: 'A cinematic personal portfolio website for filmmaker and director Markus Matulessy, showcasing his film works, creative projects, and professional portfolio.',
     image: '/images/proj5.webp',
     link: 'https://markmatulessy.com/',
   },
   {
     name: 'Story App',
+    category: 'Web Development',
     description: 'A platform for gen Z to share stories and opinions around social issues and drive positive change.',
     image: '/images/proj1.webp',
     link: 'https://suaraku.netlify.app/',
   },
   {
     name: 'Article Website',
+    category: 'Web Development',
     description: 'Responsive web of cultural articles from the Maluku region.',
     image: '/images/proj3.webp',
     link: 'https://amandapriscilia.github.io/UTSProject/',
   },
   {
     name: 'Notes App',
+    category: 'Web Development',
     description: 'Notes application platform that uses simple design and connects directly to APIs.',
     image: '/images/proj4.webp',
     link: 'https://amandapriscilia.github.io/NotesApp/',
+  },
+  {
+    name: 'Breast Tumor Classification Using Random Forest',
+    category: 'Machine Learning',
+    description:
+     'A peer-reviewed study published in Jurnal Riset Informatika (SINTA 4), based on my undergraduate thesis. The research investigated breast tumor classification using the public Wisconsin Breast Cancer Diagnostic Dataset. Four Random Forest configurations were compared to evaluate the effects of Feature Importance-based feature selection and GridSearchCV hyperparameter optimization. All models achieved the same classification accuracy of 97.37%, while the combined approach achieved the highest ROC-AUC score of 0.9977 using 15 of the original 30 features.',
+    image: '/images/roc.png',
+    link: 'https://doi.org/10.34288/jri.v8i3.534',
   },
 ];
 
@@ -118,14 +147,12 @@ export const certifications = [
     title: 'Microsoft Certified: Azure AI Fundamentals',
     issuer: 'Microsoft',
     issued: 'September 19, 2026',
-    images: ['/images/microsoft/1.jpg',
-      '/images/microsoft/2.jpg',
-    ],
+    images: ['/images/microsoft/1.jpg', '/images/microsoft/2.jpg'],
   },
   {
     title: 'Learning Path: Front-End & Back-End Developer',
     issuer: 'Coding Camp Dicoding by DBS Foundation',
-    issued: 'Februari 2025',
+    issued: 'February 2025',
     images: ['/images/codingcamp/1.jpg', '/images/codingcamp/2.jpg'],
   },
 ];
@@ -134,16 +161,9 @@ export const achievements = [
     title: '1st Place Faculty-Level Programming Competition',
     issuer: 'Faculty of Information Technology, Universitas Mercu Buana Yogyakarta',
     date: 'December 2025',
-    description:
-      'Served as Team Lead and Front-End Developer in a three-member team, leading UI design and website development using HTML, CSS, Tailwind CSS, and Vanilla JavaScript.',
-    images: [
-      '/images/lomba/1.jpg',
-      '/images/lomba/2.jpg',
-      '/images/lomba/3.webp',
-      '/images/lomba/4.webp',
-    ],
+    description: 'Served as Team Lead and Front-End Developer in a three-member team, leading UI design and website development using HTML, CSS, Tailwind CSS, and Vanilla JavaScript.',
+    images: ['/images/lomba/1.jpg', '/images/lomba/2.jpg', '/images/lomba/3.webp', '/images/lomba/4.webp'],
   },
-
 ];
 
 export const skills = [
@@ -201,6 +221,7 @@ export const skills = [
     icon: '/images/skills/Typescript.svg',
   },
 ];
+export const softSkills = ['Communication', 'Teamwork', 'Problem-Solving', 'Time Management', 'Adaptability'];
 
 export const contact = {
   email: 'priscillaleza@gmail.com',
@@ -209,10 +230,9 @@ export const contact = {
   location: 'Condongcatur, Sleman, DIY',
 };
 
-
 export const socials = [
-  { label: 'LinkedIn', href: 'www.linkedin.com/in/priscilialeza' },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/priscilialeza/' },
   { label: 'GitHub', href: 'https://github.com/AmandaPriscilia' },
   { label: 'X', href: 'https://x.com/' },
-  { label: 'Instagram', href: 'https://www.instagram.com/mndprscl7?igsh=MWN6dWp1cnRiZGZzNw' },
+  { label: 'Instagram', href: 'https://www.instagram.com/mndprscl7' },
 ];
