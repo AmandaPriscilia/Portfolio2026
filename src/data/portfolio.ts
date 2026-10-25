@@ -43,15 +43,21 @@ export const projects = [
     image: '/images/mbg.png',
     link: 'https://amandapriscilia.github.io/Competition/',
   },
-  {
-    name: 'Client Project: Solo Japanese Festival #2',
-    category: 'Web Development',
-    description:
-      'A responsive event website featuring event information, competition listings, sponsors, community partners, venue details, an interactive countdown, and calendar integration. Screenshots are showcased for portfolio purposes to respect client confidentiality.',
-    image: '/images/solo/solo-1.webp',
-    type: 'screenshots',
-    screenshots: ['/images/solo/solo-1.webp', '/images/solo/solo-2.webp', '/images/solo/solo-3.webp', '/images/solo/solo-4.webp', '/images/solo/solo-5.webp'],
-  },
+{
+  name: 'Client Project: Solo Japanese Festival #2',
+  category: 'Web Development',
+  description:
+    'A responsive event website featuring event information, competition listings, sponsors, community partners, venue details, an interactive countdown, and calendar integration. Screenshots are presented as portfolio documentation following the completion of the event.',
+  image: '/images/solo/solo-1.webp',
+  type: 'screenshots',
+  screenshots: [
+    '/images/solo/solo-1.webp',
+    '/images/solo/solo-2.webp',
+    '/images/solo/solo-3.webp',
+    '/images/solo/solo-4.webp',
+    '/images/solo/solo-5.webp',
+  ],
+},
   {
     name: 'Client Project: Personal Portfolio Website',
     category: 'Web Development',
