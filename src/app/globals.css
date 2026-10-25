@@ -89,3 +89,14 @@ body {
   .animate-heartbeat,
   .animate-sway { animation: none; }
 }
+
+/* ---- Soft skills ---- */
+.soft-chip {
+  border: 2px solid transparent;
+  letter-spacing: 0.01em;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.soft-chip:hover {
+  border-color: var(--color-cobalt);
+}
