@@ -109,10 +109,10 @@ export const educations = [
 export const experiences = [
   {
     title: 'Website Development Team Member',
-    place: 'Kelas Naskah',
+    place: 'Kelas Naskah Non-Governmental Organization (NGO), Maluku, Indonesia',
     period: 'June 2025 – Present',
     detail:
-      'Contributed to the development of Kelas Naskah’s website, focusing on front-end functionality, responsive user interfaces, UI/UX implementation, and full-stack development to support the organization’s educational initiatives.',
+      'Contributed to the development of Kelas Naskah’s website as part of an organizational team supporting its educational and creative initiatives in Maluku. Kelas Naskah is an NGO focused on empowering children and young people in Maluku through scriptwriting, storytelling, and filmmaking activities. My contributions focus on front-end functionality, responsive user interfaces, UI/UX implementation, and full-stack web development to support the organization’s mission.',
     images: [
       '/images/kelasnaskah/kelas-naskah1.webp',
       '/images/kelasnaskah/kelas-naskah2.webp',
@@ -227,7 +227,7 @@ export const skills = [
     icon: '/images/skills/Typescript.svg',
   },
 ];
-export const softSkills = ['Communication', 'Teamwork', 'Problem-Solving', 'Time Management', 'Adaptability'];
+export const softSkills = ['Communication', 'Teamwork', 'Problem-Solving', 'Time Management', 'Adaptability', 'Leadership'];
 
 export const contact = {
   email: 'priscillaleza@gmail.com',
